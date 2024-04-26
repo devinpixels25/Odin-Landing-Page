@@ -1,25 +1,24 @@
-/* .nav {
-    background-color:magenta;
-    color:yellow;
+.nav {
+display: flex;
+justify-content: space-around;
 }
 
-.awesome {
-    background-color: magenta;
-    color: cyan;
-}
-
-.info {
-    justify-content: space-around;
-}
-
-.quote {
-
-}
-
-div {
+.navLinks {
     display: flex;
+    gap: 8px;
+    list-style-type: none;   
 }
 
-.darkbackground {
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+.heroFooterBackground {
     background-color: #1f2937;
-} */
+    color: white;
+}
