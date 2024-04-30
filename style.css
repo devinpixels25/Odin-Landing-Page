@@ -40,6 +40,9 @@ a:hover {
 button {
     background-color: #3882f6;
     color: #e5e7eb;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: -8px;
 }
 
 .logoText {
