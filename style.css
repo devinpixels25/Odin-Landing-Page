@@ -117,3 +117,12 @@ blockquote {
     font-weight: 1000;
     font-size: 24px;
 }
+
+.submit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 24px;
+    background-color: #3882f6;
+}
+
