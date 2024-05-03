@@ -102,7 +102,6 @@ button {
     font-size: 36px;
     font-style: italic;
     display: flex;
-
 }
 
 blockquote {
@@ -124,5 +123,16 @@ blockquote {
     align-items: center;
     margin: 24px;
     background-color: #3882f6;
+    color: #f9faf8;
 }
 
+.signup {
+    border-color: #f9faf8;;
+    border-width: 1px;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+    color: #f9faf8;
+}
