@@ -95,3 +95,25 @@ button {
     max-width: 100px;
     padding: 20px;
 }
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+
+}
+
+blockquote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.author {
+    text-align: end;
+    font-weight: 1000;
+    font-size: 24px;
+}
