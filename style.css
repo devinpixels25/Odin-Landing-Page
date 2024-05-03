@@ -102,12 +102,14 @@ button {
     font-size: 36px;
     font-style: italic;
     display: flex;
+    max-width: 1000px;
 }
 
 blockquote {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-self: center;
 }
 
 
@@ -135,4 +137,11 @@ blockquote {
     text-align: center;
     padding: 24px;
     color: #f9faf8;
+}
+
+.quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
 }
